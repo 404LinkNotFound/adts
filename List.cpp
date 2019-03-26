@@ -93,3 +93,14 @@ void List::remove(int k)
 	
 	//Implementations of missing operations
 	
+	
+ void List::display()
+ {
+	 for(Node* newPtr = frontPtr; newPtr != nullptr ;newPtr = newPtr-> link)
+	 {
+		 cout<<newPtr->data<< " ";
+}
+cout<<endl;
+
+
+}
